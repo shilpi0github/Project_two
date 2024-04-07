@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  .navbar-brand {
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .banner_image img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+  }
+  .banner {
+    background-color:transparent;
+    color: rgb(17, 16, 16);
+  
+    
+    text-align: center;
+  }
+
+  
+  @media screen and (max-width: 667px) {
+    .banner h1 {
+      font-size: 24px;
+    }
+
+    .banner p {
+      font-size: 16px;
+    }
+  }
+  
+
+  @media screen and (min-width: 414px) and (max-width: 896px) {
+    .banner h1 {
+      font-size: 36px;
+    }
+
+    .banner p {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (min-width: 993px) {
+    .banner h1 {
+      font-size: 48px;
+    }
+
+    .banner p {
+      font-size: 24px;
+    }
+  }
+  .banner-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  
+  @media screen and (max-width: 667px) {
+    .banner-button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+
+  @media screen and (min-width: 414px) and (max-width: 896px) {
+    .banner-button {
+      font-size: 18px;
+      padding: 12px 24px;
+    }
+  }
+
+  @media screen and (min-width: 993px) {
+    .banner-button {
+      font-size: 20px;
+      padding: 14px 28px;
+    }
+  }
+
+
+  .banner-button:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+    color: white;
+  }
+  .card {
+    width: 200px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+   
+    margin: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+
+  
+  .card-content {
+    padding: 20px;
+  }
+
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  .text-col:hover {
+    transform: scale(1.1);
+  }
+  .img-col:hover {
+    transform: scale(1.1);
+  }
+  .text-col {
+    background-color: palevioletred;
+    color: white;
+    padding: 1.8rem;
+    text-align: center;
+    align-items: center;
+    font-size: 24.5px;
+  }
+  .img-col img{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+  }
+  .our_plans{
+    align-items:center;
+  }
+  .our{
+    margin-top: 15rem;
+    margin-right:-2rem;
+    padding-top: 64px;
+  }
+  .card-body {
+    background-color: palevioletred;
+    color: white;
+    font-size: 20px;
+  }
+  .image_icon{
+    color:palevioletred;  
+  font-size: 3rem;
+  padding:2rem;
+  text-align: center;
+ 
+    }
+   .icon_text{
+    text-align: center;
+   }
+   .icon_card{
+    box-shadow: 0 4px 8px palevioletred;
+   }
+   
+   
+
+   footer {
+    background-color:rgb(245, 127, 166);
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 3rem;
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: gray;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #322f2f;
+    text-decoration: none;
+}
+
+/* @media (max-width: 768px) {
+  .our {
+    padding-top: 0px;
+  }
+    footer .container {
+        text-align: center;
+    }
+    footer .col-md-4 {
+        margin-bottom: 30px;
+    }
+} */
+
+   
+   
